@@ -102,11 +102,11 @@ button {
 .info-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 .card {
-    max-width: 200px;
+    max-width: 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -149,5 +149,27 @@ button {
 }
 
 .call-to-action {
-   display: flex;   
+    margin: 75px 200px;
+    padding: 50px 0px;
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: #e5e7eb;
+    display: flex;   
+    justify-content: space-around;
+    align-items: center;
+}
+
+.call-to-action button {
+    border: 2px solid #e5e7eb;
+}
+
+.call-to-action .body .main {
+    margin: 0px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.call-to-action .body .secondary {
+    margin: 0px;
+    font-size: 14px;
 }
