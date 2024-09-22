@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 body {
+    background-color: #ECDFCC;
     font-family: Roboto, monospace;
     margin: 0px;
 
@@ -9,16 +10,16 @@ body {
 }
 
 footer {
-    background-color: #1f2937;
+    background-color: #1E201E;
     padding: 16px 200px;
     text-align: center;
     font-size: 12px;
-    color: #f9faf8;
+    color: #ECDFCC;
 }
 
 
 header {
-    background-color: #1f2937;
+    background-color: #1E201E;
     padding: 0px 200px;
 
     display: flex;
@@ -43,11 +44,11 @@ ul {
 a {
     text-decoration: none;
     font-size: 18px;
-    color: #e5e7eb;
+    color: #ECDFCC;
 }
 
 .header-body {
-    background-color: #1f2937;
+    background-color: #1E201E;
     padding: 120px 200px;
 
     display: flex;
@@ -61,22 +62,22 @@ a {
 .header-body .main {
     font-size: 48px;
     font-weight: 900;
-    color: #f9faf8;
+    color: #ECDFCC;
     margin: 0px;
 }
 
 .header-body .secondary {
     font-size: 18px;
-    color: #e5e7eb;
+    color: #ECDFCC;
     margin: 16px 0px;
 }
 
 button {
-    background-color: #3882f6;
+    background-color: #378661;
     border-radius: 5px;
     border: 0px;
     padding: 8px 32px;
-    color: #f9faf8;
+    color: #ECDFCC;
     font-size: 16px;
 }
 
@@ -90,7 +91,7 @@ button {
 .info-header {
     font-size: 36px;
     font-weight: 900;
-    color: #1f2937;
+    color: #1E201E;
     text-align: center;
 }
 
@@ -124,13 +125,13 @@ button {
     width: 200px;
     height: 200px;
     box-sizing: border-box;
-    border: 4px solid #3882f6;
+    border: 4px solid #378661;
     border-radius: 16px;
 }
 
 .quote {
-    background-color: #e5e7eb;
-    color:#1f2937;
+    background-color: #697565;
+    color:#1E201E;
     padding: 100px 350px;
 }
 
@@ -152,15 +153,15 @@ button {
     margin: 75px 200px;
     padding: 50px 0px;
     border-radius: 8px;
-    background-color: #3882f6;
-    color: #e5e7eb;
+    background-color: #378661;
+    color: #ECDFCC;
     display: flex;   
     justify-content: space-around;
     align-items: center;
 }
 
 .call-to-action button {
-    border: 2px solid #e5e7eb;
+    border: 2px solid #ECDFCC;
 }
 
 .call-to-action .body .main {
